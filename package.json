@@ -1,17 +1,20 @@
 {
   "name": "homebridge-switcherV2",
   "version": "1.0.0",
-  "description": "Sample Platform plugin for homebridge: https://github.com/nfarina/homebridge",
+  "description": "A homebridge plugin for Switcher Version 2",
+  "main": "index.js",
+  "bin": "bin/homebridge-switcherV2",
   "license": "ISC",
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "switcher"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/example/homebridge.git"
+    "url": "https://github.com/royby12/homebridge-switcherV2.git"
   },
   "bugs": {
-    "url": "http://github.com/example/homebridge/issues"
+    "url": "http://github.com/royby12/homebridge-switcherV2/issues"
   },
   "engines": {
     "node": ">=0.12.0",
